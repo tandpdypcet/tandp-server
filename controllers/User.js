@@ -3,6 +3,7 @@ const AddStudPlaced = require('../models/addStudPlaced.js');
 const Gallery = require('../models/gallery.js');
 const Announcement = require('../models/announcement.js');
 
+
 exports.register = async (req, res) => {
     try{
         const {username, email, password} = req.body;
